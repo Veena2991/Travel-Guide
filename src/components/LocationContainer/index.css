@@ -1,0 +1,43 @@
+.list-item {
+  list-style-type: none;
+  margin-bottom: 48px;
+  margin-right: 10px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.image {
+  width: 100%;
+
+  display: flex;
+}
+
+.locationCardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+.headingDesContainer {
+  padding: 10px;
+}
+
+.heading {
+  font-size: 25px;
+  text-align: left;
+  color: #475569;
+}
+
+.paragraph {
+  font-size: 15px;
+  text-align: left;
+  color: #64748b;
+}
